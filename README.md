@@ -1,6 +1,6 @@
 # TaxFlow AI
 
-A same-day, clickable frontend prototype for an AI-assisted tax preparation workflow. Built for the AI Engineer case study.
+A clickable frontend prototype for an AI-assisted tax preparation workflow. Built for the AI Engineer case study.
 
 The goal is to communicate, through interaction, how a CPA and client can work with AI-extracted return data while keeping trust, traceability, and control.
 
@@ -91,12 +91,3 @@ public/
 - **Priority is calculated, not hardcoded.** `getPriorityScore` in `src/lib/priority.ts` blends deadline, open issue count, and status, so the queue changes as state updates.
 - **Corrections preserve the AI value.** After a CPA correction the field stores `{ previousValue, by, at, reason }` so the audit trail survives the fix.
 - **Every visible control does something or is removed.** Placeholders for unbuilt pages exist to keep the shell honest — they explicitly say the demo lives on the Dashboard and John Smith's return.
-
-## Not built (explicitly out of scope for the same-day sprint)
-
-- Real OCR / PDF parsing / LLM inference
-- Auth, RBAC, real messaging backend
-- Full 250-document search + filter demo
-- Tax calculation engine
-- First-time client onboarding flow
-- Mobile-polished layout beyond avoiding overflow
