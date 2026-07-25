@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" preserveAspectRatio="xMidYMid meet" role="img" aria-label="Mock 1099-INT Fidelity">
+  <defs>
+    <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#eef0f4" stroke-width="0.5"/>
+    </pattern>
+  </defs>
+  <rect width="800" height="1000" fill="#ffffff"/>
+  <rect width="800" height="1000" fill="url(#grid)"/>
+
+  <rect x="24" y="24" width="752" height="80" fill="#eef4fb" stroke="#8fa8c2"/>
+  <text x="40" y="60" font-family="Arial" font-size="18" font-weight="700" fill="#0f172a">Form 1099-INT · Interest Income</text>
+  <text x="40" y="82" font-family="Arial" font-size="12" fill="#475569">Tax year 2025 · Fidelity Brokerage Services LLC</text>
+
+  <g font-family="Arial" fill="#0f172a">
+    <rect x="24" y="120" width="370" height="90" fill="#ffffff" stroke="#c9d3e0"/>
+    <text x="34" y="138" font-size="10" fill="#64748b">Payer</text>
+    <text x="34" y="162" font-size="14" font-weight="700">Fidelity Brokerage Services</text>
+    <text x="34" y="180" font-size="12" fill="#334155">200 Seaport Blvd, Boston, MA</text>
+    <text x="34" y="198" font-size="12" fill="#334155">Federal ID · 04-3523567</text>
+
+    <rect x="410" y="120" width="366" height="90" fill="#ffffff" stroke="#c9d3e0"/>
+    <text x="420" y="138" font-size="10" fill="#64748b">Recipient</text>
+    <text x="420" y="162" font-size="14" font-weight="700">John Smith</text>
+    <text x="420" y="180" font-size="12" fill="#334155">Account ****2205</text>
+    <text x="420" y="198" font-size="12" fill="#334155">TIN ***-**-4821</text>
+  </g>
+
+  <g font-family="Arial">
+    <rect x="24" y="320" width="440" height="90" fill="#fff8e6" stroke="#d19b1a"/>
+    <text x="34" y="342" font-size="11" fill="#64748b">Box 1 · Interest income</text>
+    <text x="34" y="384" font-size="30" font-weight="700" fill="#0f172a">3,000.00</text>
+
+    <rect x="480" y="320" width="296" height="90" fill="#ffffff" stroke="#c9d3e0"/>
+    <text x="490" y="342" font-size="11" fill="#64748b">Box 2 · Early withdrawal penalty</text>
+    <text x="490" y="384" font-size="22" fill="#0f172a">0.00</text>
+
+    <rect x="24" y="420" width="752" height="90" fill="#ffffff" stroke="#c9d3e0"/>
+    <text x="34" y="442" font-size="11" fill="#64748b">Box 3 · Interest on U.S. savings bonds and Treasury obligations</text>
+    <text x="34" y="484" font-size="22" fill="#0f172a">0.00</text>
+
+    <rect x="24" y="520" width="376" height="90" fill="#ffffff" stroke="#c9d3e0"/>
+    <text x="34" y="542" font-size="11" fill="#64748b">Box 4 · Federal income tax withheld</text>
+    <text x="34" y="584" font-size="22" fill="#0f172a">0.00</text>
+
+    <rect x="410" y="520" width="366" height="90" fill="#ffffff" stroke="#c9d3e0"/>
+    <text x="420" y="542" font-size="11" fill="#64748b">Box 8 · Tax-exempt interest</text>
+    <text x="420" y="584" font-size="22" fill="#0f172a">0.00</text>
+  </g>
+</svg>
